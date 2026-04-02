@@ -1,0 +1,17 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required:
+      - mcpampelApiKey
+    properties:
+      mcpampelApiKey:
+        type: string
+        description: "MCPAmpel API key (get one free at mcpampel.com)"
+  commandFunction:
+    |-
+    (config) => ({
+      command: 'uvx',
+      args: ['mcpampel'],
+      env: { MCPAMPEL_API_KEY: config.mcpampelApiKey }
+    })
