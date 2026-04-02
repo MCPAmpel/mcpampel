@@ -1,6 +1,6 @@
 [project]
 name = "mcpampel"
-version = "0.2.0"
+version = "0.2.1"
 description = "MCP security scanner plugin - scan your installed MCP servers with 16 engines"
 readme = "README.md"
 license = "Apache-2.0"

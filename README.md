@@ -140,3 +140,5 @@ Apache License 2.0
 ---
 
 [mcpampel.com](https://mcpampel.com)
+
+<!-- mcp-name: io.github.MCPAmpel/mcpampel -->
