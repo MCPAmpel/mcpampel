@@ -1,10 +1,12 @@
 # MCPAmpel - MCP Security Scanner
 
+[![MCPAmpel](https://mcpampel.com/badge/MCPAmpel/mcpampel.svg)](https://mcpampel.com/repo/MCPAmpel/mcpampel)
+
 Scan your installed MCP servers for security vulnerabilities, directly from your AI agent.
 
 MCPAmpel discovers MCP servers from your Claude Code, Cursor, Windsurf, or Gemini CLI configuration, submits them to 16 scanning engines, and returns an aggregated trust score with detailed findings.
 
-Free. 50 API calls/day.
+50 API calls/day included.
 
 ## Quick Start
 
